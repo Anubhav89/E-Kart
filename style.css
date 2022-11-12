@@ -358,6 +358,10 @@ body {
     padding: 40px;
 }
 
+#sm-banner .banner-box2 {
+    background-image: url("img/banner/b17.jpg");
+}
+
 #sm-banner h4 {
     color: #fff;
     font-size: 30px;
@@ -403,6 +407,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
 }
+
 
 #banner3 h2 {
     color: #fff;
@@ -626,8 +631,21 @@ footer a:hover {
     }
 
     #sm-banner .banner-box2 {
-        padding-top: 10px;
+        margin-top: 10px;
     }
+
+    #sm-banner h4 {
+        font-size: 17px;
+    }
+
+    #sm-banner h2 {
+        font-size: 40px;
+    }
+
+    #sm-banner span {
+        font-size: 20px;
+    }
+
 
     #banner3 {
         padding: 0 36px;
@@ -636,6 +654,15 @@ footer a:hover {
     #banner3 .banner-box {
         width: 18%;
     }
+
+    #banner3 h2 {
+        font-size: 27px;
+    }
+
+    #banner3 h3 {
+        font-size: 22px;
+    }
+
 
     #newsletter .form {
         width: 60%;
@@ -684,5 +711,50 @@ footer a:hover {
 
     #sm-banner .banner-box {
         height: 30vh;
+        padding: 20px;
+    }
+
+    #sm-banner h4 {
+        font-size: 12px;
+    }
+
+    #sm-banner h2 {
+        font-size: 35px;
+    }
+
+    #sm-banner span {
+        font-size: 15px;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    button.white {
+        font-size: 16px;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #banner3 h2 {
+        font-size: 22px;
+    }
+
+    #banner3 h3 {
+        font-size: 17px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
     }
 }
