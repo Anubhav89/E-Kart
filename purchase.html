@@ -40,13 +40,13 @@
                     <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
                     <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
                 </div>
             </div>
         </div>
@@ -198,6 +198,25 @@
             <img src="img/pay//pay.png" alt="">
         </div>
     </footer>
+
+    <script>
+        var mainimg = document.getElementById("mainimg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function () {
+            mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            mainimg.src = smallimg[3].src;
+        }
+    </script>
+
     <script src="script.js"></script>
 </body>
 
